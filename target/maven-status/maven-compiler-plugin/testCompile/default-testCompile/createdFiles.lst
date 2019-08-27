@@ -1,0 +1,3 @@
+reqres\apitests\get\UserDetails.class
+reqres\e2e\steps\user\ValidateUser.class
+Runner.class

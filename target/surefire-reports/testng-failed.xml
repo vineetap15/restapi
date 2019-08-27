@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [apiframework]">
+  <test thread-count="5" verbose="0" name="api testing(failed)">
+    <classes>
+      <class name="Runner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Runner -->
+    </classes>
+  </test> <!-- api testing(failed) -->
+</suite> <!-- Failed suite [apiframework] -->
