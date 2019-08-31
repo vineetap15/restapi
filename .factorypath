@@ -111,4 +111,6 @@
     <factorypathentry kind="VARJAR" id="M2_REPO/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/apache/logging/log4j/log4j-core/2.12.1/log4j-core-2.12.1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar" enabled="true" runInBatchMode="false"/>
 </factorypath>

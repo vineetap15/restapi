@@ -3,6 +3,328 @@
     "line": 1,
     "elements": [
       {
+        "line": 14,
+        "name": "Create a User",
+        "description": "",
+        "id": "to-validate-user-creation-and-updation;create-a-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 627568067,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user has POST api of create user",
+            "match": {
+              "location": "ValidateUser.the_user_has_POST_api_of_create_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3700668,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user enters the data \"vine11\" and \"engineer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vine11",
+                  "offset": 26
+                },
+                {
+                  "val": "engineer",
+                  "offset": 39
+                }
+              ],
+              "location": "ValidateUser.the_user_enters_the_data_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2479858528,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user hits the POST api",
+            "match": {
+              "location": "ValidateUser.the_user_hits_the_POST_api()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 413379419,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user should be created",
+            "match": {
+              "location": "ValidateUser.the_user_should_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@createPet"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Create a User",
+        "description": "",
+        "id": "to-validate-user-creation-and-updation;create-a-user;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 67965,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user has POST api of create user",
+            "match": {
+              "location": "ValidateUser.the_user_has_POST_api_of_create_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 78536,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user enters the data \"vine22\" and \"doctor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vine22",
+                  "offset": 26
+                },
+                {
+                  "val": "doctor",
+                  "offset": 39
+                }
+              ],
+              "location": "ValidateUser.the_user_enters_the_data_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 760782286,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user hits the POST api",
+            "match": {
+              "location": "ValidateUser.the_user_hits_the_POST_api()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16661500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user should be created",
+            "match": {
+              "location": "ValidateUser.the_user_should_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@createPet"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Create a User",
+        "description": "",
+        "id": "to-validate-user-creation-and-updation;create-a-user;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4870413,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user has POST api of create user",
+            "match": {
+              "location": "ValidateUser.the_user_has_POST_api_of_create_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84578,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user enters the data \"vine33\" and \"manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vine33",
+                  "offset": 26
+                },
+                {
+                  "val": "manager",
+                  "offset": 39
+                }
+              ],
+              "location": "ValidateUser.the_user_enters_the_data_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 694991507,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user hits the POST api",
+            "match": {
+              "location": "ValidateUser.the_user_hits_the_POST_api()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10464647,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user should be created",
+            "match": {
+              "location": "ValidateUser.the_user_should_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@createPet"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Create a User",
+        "description": "",
+        "id": "to-validate-user-creation-and-updation;create-a-user;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 74006,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user has POST api of create user",
+            "match": {
+              "location": "ValidateUser.the_user_has_POST_api_of_create_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75893,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user enters the data \"vine44\" and \"lead\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vine44",
+                  "offset": 26
+                },
+                {
+                  "val": "lead",
+                  "offset": 39
+                }
+              ],
+              "location": "ValidateUser.the_user_enters_the_data_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 714273038,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user hits the POST api",
+            "match": {
+              "location": "ValidateUser.the_user_hits_the_POST_api()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9637367,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user should be created",
+            "match": {
+              "location": "ValidateUser.the_user_should_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@createPet"
+          }
+        ]
+      }
+    ],
+    "name": "to validate user creation and updation",
+    "description": "\r\n  to create a new user, update an existing user and validate the successfull creation and updation",
+    "id": "to-validate-user-creation-and-updation",
+    "keyword": "Feature",
+    "uri": "user/CreateUser.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
         "line": 7,
         "name": "get a user details",
         "description": "",
@@ -12,28 +334,27 @@
         "steps": [
           {
             "result": {
-              "duration": 949651153,
+              "duration": 1033816,
               "status": "passed"
             },
             "line": 8,
             "name": "the user has GET api of user",
             "match": {
-              "location": "UserDetails.the_user_has_GET_api_of_user()"
+              "location": "ValidateUser.the_user_has_GET_api_of_user()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1455116254,
-              "error_message": "java.net.UnknownHostException: reqres.in\r\n\tat java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)\r\n\tat java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)\r\n\tat java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)\r\n\tat java.net.InetAddress.getAllByName0(InetAddress.java:1276)\r\n\tat java.net.InetAddress.getAllByName(InetAddress.java:1192)\r\n\tat java.net.InetAddress.getAllByName(InetAddress.java:1126)\r\n\tat org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)\r\n\tat org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)\r\n\tat org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)\r\n\tat org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)\r\n\tat org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)\r\n\tat org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)\r\n\tat org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)\r\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)\r\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)\r\n\tat org.apache.http.client.HttpClient$execute$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:136)\r\n\tat io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2146)\r\n\tat io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:494)\r\n\tat io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:451)\r\n\tat io.restassured.internal.http.HTTPBuilder$request$2.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:152)\r\n\tat io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1544)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)\r\n\tat io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:157)\r\n\tat io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1293)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)\r\n\tat io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:152)\r\n\tat io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)\r\n\tat io.restassured.filter.Filter$filter$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat io.restassured.filter.Filter$filter.call(Unknown Source)\r\n\tat io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)\r\n\tat io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)\r\n\tat io.restassured.filter.Filter$filter.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:144)\r\n\tat io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)\r\n\tat io.restassured.filter.FilterContext$next.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:136)\r\n\tat io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1749)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)\r\n\tat io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:157)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\r\n\tat io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1755)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)\r\n\tat io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:157)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\r\n\tat io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:171)\r\n\tat io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)\r\n\tat io.restassured.RestAssured.get(RestAssured.java:778)\r\n\tat reqres.utils.Utils.getUserReponse(Utils.java:39)\r\n\tat reqres.apitests.get.UserDetails.the_user_hits_the_GET_api_with_valid_id(UserDetails.java:30)\r\n\tat ✽.When the user hits the GET api with valid id \"5\"(src/test/resources/feature/user/UserDetails.feature:9)\r\n",
-              "status": "failed"
+              "duration": 254195582,
+              "status": "passed"
             },
             "line": 9,
-            "name": "the user hits the GET api with valid id \"5\"",
+            "name": "the user hits the GET api with valid id \"6\"",
             "match": {
               "arguments": [
                 {
-                  "val": "5",
+                  "val": "6",
                   "offset": 41
                 }
               ],
@@ -43,10 +364,11 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 17720236,
+              "status": "passed"
             },
             "line": 10,
-            "name": "the user should be validated",
+            "name": "the user should be fetched",
             "match": {
               "location": "UserDetails.the_user_should_be_validated()"
             },
@@ -56,7 +378,7 @@
         "tags": [
           {
             "line": 6,
-            "name": "@getUser"
+            "name": "@getUserById"
           }
         ]
       }
@@ -65,6 +387,276 @@
     "description": "\r\n  to validate a user details",
     "id": "to-validate-user-details",
     "keyword": "Feature",
-    "uri": "src/test/resources/feature/user/UserDetails.feature"
+    "uri": "user/UserDetails.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Create a User",
+        "description": "",
+        "id": "to-validate-user-creation-and-updation;create-a-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 72873,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user has POST api of create user",
+            "match": {
+              "location": "ValidateUser.the_user_has_POST_api_of_create_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 115540,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user enters the data \"vine\" and \"engineer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vine",
+                  "offset": 26
+                },
+                {
+                  "val": "engineer",
+                  "offset": 37
+                }
+              ],
+              "location": "ValidateUser.the_user_enters_the_data_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 428139800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user hits the POST api",
+            "match": {
+              "location": "ValidateUser.the_user_hits_the_POST_api()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21592703,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user should be created",
+            "match": {
+              "location": "ValidateUser.the_user_should_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@createPet"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "get a user details",
+        "description": "",
+        "id": "to-validate-user-creation-and-updation;get-a-user-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1086300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user has GET api of user",
+            "match": {
+              "location": "ValidateUser.the_user_has_GET_api_of_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 734164740,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user hits the GET api with valid id",
+            "match": {
+              "location": "ValidateUser.the_user_hits_the_GET_api_with_valid_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4986707,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user should be validated",
+            "match": {
+              "location": "ValidateUser.the_user_should_be_validated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@getUser"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "update a user details",
+        "description": "",
+        "id": "to-validate-user-creation-and-updation;update-a-user-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1428387,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user has PUT api of a user with valid id",
+            "match": {
+              "location": "ValidateUser.the_user_has_PUT_api_of_a_user_with_valid_id()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 109121,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enters the updated data \"vineetag\" and \"doctor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vineetag",
+                  "offset": 30
+                },
+                {
+                  "val": "doctor",
+                  "offset": 45
+                }
+              ],
+              "location": "ValidateUser.user_enters_the_updated_data_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 714728401,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user hits the PUT api",
+            "match": {
+              "location": "ValidateUser.the_user_hits_the_PUT_api()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37401249,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user should be updated",
+            "match": {
+              "location": "ValidateUser.the_user_should_be_updated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@updateUser"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "delete a user",
+        "description": "",
+        "id": "to-validate-user-creation-and-updation;delete-a-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 118938,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user has DELETE api with valid id",
+            "match": {
+              "location": "ValidateUser.the_user_has_DELETE_api_with_valid_id()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 679970594,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "the user hits the DELETE api",
+            "match": {
+              "location": "ValidateUser.the_user_hits_the_DELETE_api()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38891,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the user should gets deleted",
+            "match": {
+              "location": "ValidateUser.the_user_should_gets_deleted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 34,
+            "name": "@deleteUser"
+          }
+        ]
+      }
+    ],
+    "name": "to validate user creation and updation",
+    "description": "\r\n  to create a new user, update an existing user and validate the successfull creation and updation",
+    "id": "to-validate-user-creation-and-updation",
+    "keyword": "Feature",
+    "uri": "user/ValidateUser.feature"
   }
 ]

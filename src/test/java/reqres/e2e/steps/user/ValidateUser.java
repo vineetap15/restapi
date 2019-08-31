@@ -9,6 +9,7 @@ import static io.restassured.path.json.JsonPath.from;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 
 import reqres.helpers.HelperTestMethods;
@@ -29,6 +30,7 @@ public class ValidateUser {
     ObjectMapper mp = new ObjectMapper();
     static String id = "";
     Response res;
+    static Logger log = Logger.getLogger(ValidateUser.class);
 
     @Given("^the user has POST api of create user$")
     public void the_user_has_POST_api_of_create_user() throws Throwable {
@@ -47,7 +49,8 @@ public class ValidateUser {
     public void the_user_hits_the_POST_api() throws Throwable {
         Response res = Utils.getUserPostReponse(ContentType.JSON, cre);
         createUserWorld.setResponse(res);
-        System.out.println("create User response is:   " + createUserWorld.getResponseBody());
+        log.info("create User response is:   " + createUserWorld.getResponseBody());
+        // System.out.println("create User response is:   " + createUserWorld.getResponseBody());
     }
 
     @Then("^the user should be created$")
@@ -60,7 +63,7 @@ public class ValidateUser {
             Assert.assertTrue(createUserWorld.getResponseBody().contains("createdAt"));
             ValidateUser.id = from(createUserWorld.getResponseBody()).getString("id");
         } catch (Exception e) {
-            System.out.println("User creation FAILED");
+            log.error("User creation FAILED");
         }
 
     }
@@ -73,13 +76,16 @@ public class ValidateUser {
 
     @When("^the user hits the GET api with valid id$")
     public void the_user_hits_the_GET_api_with_valid_id() throws Throwable {
-        System.out.println("Created user id is-- " + ValidateUser.id);
+        log.info("Created user id is-- " + ValidateUser.id);
         Response res = Utils.getUserReponse(ValidateUser.id);
+
+        log.info("Response of get api is--- " + res.asString());
         getUserWorld.setResponse(res);
+        
     }
 
     @Then("^the user should be validated$")
-    public void the_user_should_be_validated() throws Throwable {
+    public void the_user_should_be_validated() {
         try {
             htm.checkStatusIs200(getUserWorld.getResponse());
             Assert.assertTrue(getUserWorld.getResponseBody().contains("id"));
@@ -89,7 +95,7 @@ public class ValidateUser {
             Assert.assertEquals(from(createUserWorld.getResponseBody()).getString("id"), ValidateUser.id, "id matched");
             // ValidateUser.id = from(createUserWorld.getResponseBody()).getString("id");
         } catch (Exception e) {
-            System.out.println("FAILED to fetch a user details");
+            log.error("FAILED to fetch a user details");
         }
     }
 
@@ -121,15 +127,15 @@ public class ValidateUser {
             Assert.assertTrue(updateUserWorld.getResponseBody().contains("updatedAt"));
             // Assert.assertEquals(from(updateUserWorld.getResponseBody()).getString("id"),
             // ValidateUser.id, "id matched");
-            System.out.println("updated name is--" + from(updateUserWorld.getResponseBody()).getString("name"));
-            System.out.println("updated job is--" + from(updateUserWorld.getResponseBody()).getString("job"));
+            log.info("updated name is--" + from(updateUserWorld.getResponseBody()).getString("name"));
+            log.info("updated job is--" + from(updateUserWorld.getResponseBody()).getString("job"));
 
             Assert.assertEquals(from(updateUserWorld.getResponseBody()).getString("name"), upd.getName(),
                     "Name is updated");
             Assert.assertEquals(from(updateUserWorld.getResponseBody()).getString("job"), upd.getJob(),
                     "Job is updated");
         } catch (Exception e) {
-            System.out.println("FAILED to UPDATE a user details");
+            log.error("FAILED to UPDATE a user details");
         }
     }
 
@@ -149,7 +155,7 @@ public class ValidateUser {
         try {
             htm.checkStatusIs204(res);
         } catch (Exception e) {
-            System.out.println("FAILED to DLETE a user ");
+            log.info("FAILED to DLETE a user ");
         }
     }
 }

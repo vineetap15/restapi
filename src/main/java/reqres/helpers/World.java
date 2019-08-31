@@ -3,12 +3,16 @@ package reqres.helpers;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.apache.log4j.Logger;
+
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 public class World{
     Response res =null;
     JsonPath jsonPathValue =null; 
+    static Logger log = Logger.getLogger(World.class);
+
 
     public void setResponse(Response response){
         this.res = response;

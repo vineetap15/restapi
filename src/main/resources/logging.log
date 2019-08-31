@@ -1,0 +1,700 @@
+2019-08-31 13:33:11 INFO  Utils:23 - setting base url
+2019-08-31 13:33:11 INFO  Utils:52 - calling getUserPostReponse
+2019-08-31 13:33:14 INFO  ValidateUser:52 - create User response is:   {"name":"vine11","job":"engineer","id":"756","createdAt":"2019-08-31T08:03:13.462Z"}
+2019-08-31 13:33:14 INFO  HelperTestMethods:20 - checking for response code
+2019-08-31 13:33:14 INFO  Utils:23 - setting base url
+2019-08-31 13:33:14 INFO  Utils:52 - calling getUserPostReponse
+2019-08-31 13:33:15 INFO  ValidateUser:52 - create User response is:   {"name":"vine22","job":"doctor","id":"431","createdAt":"2019-08-31T08:03:15.014Z"}
+2019-08-31 13:33:15 INFO  HelperTestMethods:20 - checking for response code
+2019-08-31 13:33:15 INFO  Utils:23 - setting base url
+2019-08-31 13:33:15 INFO  Utils:52 - calling getUserPostReponse
+2019-08-31 13:33:16 INFO  ValidateUser:52 - create User response is:   {"name":"vine33","job":"manager","id":"732","createdAt":"2019-08-31T08:03:15.762Z"}
+2019-08-31 13:33:16 INFO  HelperTestMethods:20 - checking for response code
+2019-08-31 13:33:16 INFO  Utils:23 - setting base url
+2019-08-31 13:33:16 INFO  Utils:52 - calling getUserPostReponse
+2019-08-31 13:33:18 INFO  ValidateUser:52 - create User response is:   {"name":"vine44","job":"lead","id":"305","createdAt":"2019-08-31T08:03:16.932Z"}
+2019-08-31 13:33:18 INFO  HelperTestMethods:20 - checking for response code
+2019-08-31 13:33:18 INFO  Utils:23 - setting base url
+2019-08-31 13:33:18 INFO  Utils:40 - setting content type
+2019-08-31 13:33:18 INFO  Utils:46 - calling get
+2019-08-31 13:33:18 INFO  UserDetails:33 - user details are:   {"data":{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}}
+2019-08-31 13:33:18 INFO  HelperTestMethods:14 - checking for response code
+2019-08-31 13:33:18 INFO  UserDetails:47 - User details are:  {"data":{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}}
+2019-08-31 13:33:18 INFO  UserDetails:49 - data is - {last_name=Ramos, id=6, avatar=https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg, first_name=Tracey, email=tracey.ramos@reqres.in}
+2019-08-31 13:33:18 INFO  UserDetails:50 - id is - 6
+2019-08-31 13:33:18 INFO  UserDetails:51 - email is - tracey.ramos@reqres.in
+2019-08-31 13:33:18 INFO  UserDetails:52 - firstname is - Tracey
+2019-08-31 13:33:18 INFO  UserDetails:53 - lastname is - Ramos
+2019-08-31 13:33:18 INFO  UserDetails:54 - avatar is - https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg
+2019-08-31 13:33:18 INFO  Utils:23 - setting base url
+2019-08-31 13:33:18 INFO  Utils:52 - calling getUserPostReponse
+2019-08-31 13:33:19 INFO  ValidateUser:52 - create User response is:   {"name":"vine","job":"engineer","id":"894","createdAt":"2019-08-31T08:03:18.389Z"}
+2019-08-31 13:33:19 INFO  HelperTestMethods:20 - checking for response code
+2019-08-31 13:33:19 INFO  Utils:23 - setting base url
+2019-08-31 13:33:19 INFO  Utils:40 - setting content type
+2019-08-31 13:33:19 INFO  ValidateUser:79 - Created user id is-- 894
+2019-08-31 13:33:19 INFO  Utils:46 - calling get
+2019-08-31 13:33:20 INFO  ValidateUser:82 - Response of get api is--- {}
+2019-08-31 13:33:20 INFO  HelperTestMethods:14 - checking for response code
+2019-08-31 13:33:20 INFO  Utils:23 - setting base url
+2019-08-31 13:33:20 INFO  Utils:40 - setting content type
+2019-08-31 13:33:20 INFO  Utils:59 - calling getUserPutReponse
+2019-08-31 13:33:21 INFO  HelperTestMethods:14 - checking for response code
+2019-08-31 13:33:21 INFO  ValidateUser:130 - updated name is--vineetag
+2019-08-31 13:33:21 INFO  ValidateUser:131 - updated job is--doctor
+2019-08-31 13:33:21 INFO  Utils:23 - setting base url
+2019-08-31 13:33:21 INFO  Utils:65 - calling delete
+2019-08-31 13:33:21 INFO  HelperTestMethods:32 - checking for response code
+2019-08-31 13:40:53 INFO  Utils:23 - setting base url
+2019-08-31 13:40:53 INFO  Utils:52 - calling getUserPostReponse
+2019-08-31 13:40:56 INFO  ValidateUser:52 - create User response is:   {"name":"vine11","job":"engineer","id":"494","createdAt":"2019-08-31T08:10:55.331Z"}
+2019-08-31 13:40:56 INFO  HelperTestMethods:20 - checking for response code
+2019-08-31 13:40:56 INFO  Utils:23 - setting base url
+2019-08-31 13:40:56 INFO  Utils:52 - calling getUserPostReponse
+2019-08-31 13:40:57 INFO  ValidateUser:52 - create User response is:   {"name":"vine22","job":"doctor","id":"642","createdAt":"2019-08-31T08:10:56.481Z"}
+2019-08-31 13:40:57 INFO  HelperTestMethods:20 - checking for response code
+2019-08-31 13:40:57 INFO  Utils:23 - setting base url
+2019-08-31 13:40:57 INFO  Utils:52 - calling getUserPostReponse
+2019-08-31 13:40:57 INFO  ValidateUser:52 - create User response is:   {"name":"vine33","job":"manager","id":"532","createdAt":"2019-08-31T08:10:57.173Z"}
+2019-08-31 13:40:57 INFO  HelperTestMethods:20 - checking for response code
+2019-08-31 13:40:58 INFO  Utils:23 - setting base url
+2019-08-31 13:40:58 INFO  Utils:52 - calling getUserPostReponse
+2019-08-31 13:40:59 INFO  ValidateUser:52 - create User response is:   {"name":"vine44","job":"lead","id":"79","createdAt":"2019-08-31T08:10:58.560Z"}
+2019-08-31 13:40:59 INFO  HelperTestMethods:20 - checking for response code
+2019-08-31 13:40:59 INFO  Utils:23 - setting base url
+2019-08-31 13:40:59 INFO  Utils:40 - setting content type
+2019-08-31 13:40:59 INFO  Utils:46 - calling get
+2019-08-31 13:41:00 INFO  UserDetails:33 - user details are:   {"data":{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}}
+2019-08-31 13:41:00 INFO  HelperTestMethods:14 - checking for response code
+2019-08-31 13:41:00 INFO  UserDetails:47 - User details are:  {"data":{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}}
+2019-08-31 13:41:00 INFO  UserDetails:49 - data is - {last_name=Ramos, id=6, avatar=https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg, first_name=Tracey, email=tracey.ramos@reqres.in}
+2019-08-31 13:41:00 INFO  UserDetails:50 - id is - 6
+2019-08-31 13:41:00 INFO  UserDetails:51 - email is - tracey.ramos@reqres.in
+2019-08-31 13:41:00 INFO  UserDetails:52 - firstname is - Tracey
+2019-08-31 13:41:00 INFO  UserDetails:53 - lastname is - Ramos
+2019-08-31 13:41:00 INFO  UserDetails:54 - avatar is - https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg
+2019-08-31 13:41:00 INFO  Utils:23 - setting base url
+2019-08-31 13:41:00 INFO  Utils:52 - calling getUserPostReponse
+2019-08-31 13:41:01 INFO  ValidateUser:52 - create User response is:   {"name":"vine","job":"engineer","id":"844","createdAt":"2019-08-31T08:11:00.275Z"}
+2019-08-31 13:41:01 INFO  HelperTestMethods:20 - checking for response code
+2019-08-31 13:41:01 INFO  Utils:23 - setting base url
+2019-08-31 13:41:01 INFO  Utils:40 - setting content type
+2019-08-31 13:41:01 INFO  ValidateUser:79 - Created user id is-- 844
+2019-08-31 13:41:01 INFO  Utils:46 - calling get
+2019-08-31 13:41:01 INFO  ValidateUser:82 - Response of get api is--- {}
+2019-08-31 13:41:01 INFO  HelperTestMethods:14 - checking for response code
+2019-08-31 13:41:01 INFO  Utils:23 - setting base url
+2019-08-31 13:41:01 INFO  Utils:40 - setting content type
+2019-08-31 13:41:01 INFO  Utils:59 - calling getUserPutReponse
+2019-08-31 13:41:02 INFO  HelperTestMethods:14 - checking for response code
+2019-08-31 13:41:02 INFO  ValidateUser:130 - updated name is--vineetag
+2019-08-31 13:41:02 INFO  ValidateUser:131 - updated job is--doctor
+2019-08-31 13:41:02 INFO  Utils:23 - setting base url
+2019-08-31 13:41:02 INFO  Utils:65 - calling delete
+2019-08-31 13:41:03 INFO  HelperTestMethods:32 - checking for response code
+2019-08-31 13:44:03 INFO  Utils:23 - setting base url
+2019-08-31 13:44:03 INFO  Utils:52 - calling getUserPostReponse
+2019-08-31 13:44:05 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://reqres.in:443
+2019-08-31 13:44:05 DEBUG DefaultClientConnectionOperator:177 - Connecting to reqres.in:443
+2019-08-31 13:44:05 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2019-08-31 13:44:05 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2019-08-31 13:44:05 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2019-08-31 13:44:05 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2019-08-31 13:44:05 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2019-08-31 13:44:05 DEBUG DefaultClientConnection:274 - Sending request: POST /api/users HTTP/1.1
+2019-08-31 13:44:05 DEBUG wire:73 -  >> "POST /api/users HTTP/1.1[\r][\n]"
+2019-08-31 13:44:05 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2019-08-31 13:44:05 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-08-31 13:44:05 DEBUG wire:73 -  >> "Content-Length: 34[\r][\n]"
+2019-08-31 13:44:05 DEBUG wire:73 -  >> "Host: reqres.in[\r][\n]"
+2019-08-31 13:44:05 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-31 13:44:05 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)[\r][\n]"
+2019-08-31 13:44:05 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-31 13:44:05 DEBUG wire:73 -  >> "[\r][\n]"
+2019-08-31 13:44:05 DEBUG headers:278 - >> POST /api/users HTTP/1.1
+2019-08-31 13:44:05 DEBUG headers:281 - >> Accept: */*
+2019-08-31 13:44:05 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2019-08-31 13:44:05 DEBUG headers:281 - >> Content-Length: 34
+2019-08-31 13:44:05 DEBUG headers:281 - >> Host: reqres.in
+2019-08-31 13:44:05 DEBUG headers:281 - >> Connection: Keep-Alive
+2019-08-31 13:44:05 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+2019-08-31 13:44:05 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2019-08-31 13:44:05 DEBUG wire:87 -  >> "{"name":"vine11","job":"engineer"}"
+2019-08-31 13:44:06 DEBUG wire:73 -  << "HTTP/1.1 201 Created[\r][\n]"
+2019-08-31 13:44:06 DEBUG wire:73 -  << "Date: Sat, 31 Aug 2019 08:14:05 GMT[\r][\n]"
+2019-08-31 13:44:06 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-08-31 13:44:06 DEBUG wire:73 -  << "Content-Length: 84[\r][\n]"
+2019-08-31 13:44:06 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2019-08-31 13:44:06 DEBUG wire:73 -  << "Set-Cookie: __cfduid=dc0032d422fd34db43e5daa1673f122731567239244; expires=Sun, 30-Aug-20 08:14:04 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-08-31 13:44:06 DEBUG wire:73 -  << "X-Powered-By: Express[\r][\n]"
+2019-08-31 13:44:06 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-31 13:44:06 DEBUG wire:73 -  << "Etag: W/"54-G6GpFtAxQ7PFcujsYv0kgeUKVuw"[\r][\n]"
+2019-08-31 13:44:06 DEBUG wire:73 -  << "Via: 1.1 vegur[\r][\n]"
+2019-08-31 13:44:06 DEBUG wire:73 -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-08-31 13:44:06 DEBUG wire:73 -  << "Server: cloudflare[\r][\n]"
+2019-08-31 13:44:06 DEBUG wire:73 -  << "CF-RAY: 50ed8c8088f6d5c8-BOM[\r][\n]"
+2019-08-31 13:44:06 DEBUG wire:73 -  << "[\r][\n]"
+2019-08-31 13:44:06 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 201 Created
+2019-08-31 13:44:06 DEBUG headers:262 - << HTTP/1.1 201 Created
+2019-08-31 13:44:06 DEBUG headers:265 - << Date: Sat, 31 Aug 2019 08:14:05 GMT
+2019-08-31 13:44:06 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2019-08-31 13:44:06 DEBUG headers:265 - << Content-Length: 84
+2019-08-31 13:44:06 DEBUG headers:265 - << Connection: keep-alive
+2019-08-31 13:44:06 DEBUG headers:265 - << Set-Cookie: __cfduid=dc0032d422fd34db43e5daa1673f122731567239244; expires=Sun, 30-Aug-20 08:14:04 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-08-31 13:44:06 DEBUG headers:265 - << X-Powered-By: Express
+2019-08-31 13:44:06 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2019-08-31 13:44:06 DEBUG headers:265 - << Etag: W/"54-G6GpFtAxQ7PFcujsYv0kgeUKVuw"
+2019-08-31 13:44:06 DEBUG headers:265 - << Via: 1.1 vegur
+2019-08-31 13:44:06 DEBUG headers:265 - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-08-31 13:44:06 DEBUG headers:265 - << Server: cloudflare
+2019-08-31 13:44:06 DEBUG headers:265 - << CF-RAY: 50ed8c8088f6d5c8-BOM
+2019-08-31 13:44:06 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2019-08-31 13:44:06 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json; charset=utf-8
+2019-08-31 13:44:06 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-31 13:44:06 DEBUG wire:87 -  << "{"name":"vine11","job":"engineer","id":"343","createdAt":"2019-08-31T08:14:05.357Z"}"
+2019-08-31 13:44:06 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6cd166b8
+2019-08-31 13:44:06 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2019-08-31 13:44:06 INFO  ValidateUser:52 - create User response is:   {"name":"vine11","job":"engineer","id":"343","createdAt":"2019-08-31T08:14:05.357Z"}
+2019-08-31 13:44:06 INFO  HelperTestMethods:20 - checking for response code
+2019-08-31 13:44:06 INFO  Utils:23 - setting base url
+2019-08-31 13:44:06 INFO  Utils:52 - calling getUserPostReponse
+2019-08-31 13:44:06 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://reqres.in:443
+2019-08-31 13:44:06 DEBUG DefaultClientConnectionOperator:177 - Connecting to reqres.in:443
+2019-08-31 13:44:07 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2019-08-31 13:44:07 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2019-08-31 13:44:07 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2019-08-31 13:44:07 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2019-08-31 13:44:07 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2019-08-31 13:44:07 DEBUG DefaultClientConnection:274 - Sending request: POST /api/users HTTP/1.1
+2019-08-31 13:44:07 DEBUG wire:73 -  >> "POST /api/users HTTP/1.1[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  >> "Content-Length: 32[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  >> "Host: reqres.in[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  >> "[\r][\n]"
+2019-08-31 13:44:07 DEBUG headers:278 - >> POST /api/users HTTP/1.1
+2019-08-31 13:44:07 DEBUG headers:281 - >> Accept: */*
+2019-08-31 13:44:07 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2019-08-31 13:44:07 DEBUG headers:281 - >> Content-Length: 32
+2019-08-31 13:44:07 DEBUG headers:281 - >> Host: reqres.in
+2019-08-31 13:44:07 DEBUG headers:281 - >> Connection: Keep-Alive
+2019-08-31 13:44:07 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+2019-08-31 13:44:07 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2019-08-31 13:44:07 DEBUG wire:87 -  >> "{"name":"vine22","job":"doctor"}"
+2019-08-31 13:44:07 DEBUG wire:73 -  << "HTTP/1.1 201 Created[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  << "Date: Sat, 31 Aug 2019 08:14:06 GMT[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  << "Content-Length: 82[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  << "Set-Cookie: __cfduid=de36110a0b9a87c2e8632e56eb73f31cd1567239246; expires=Sun, 30-Aug-20 08:14:06 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  << "X-Powered-By: Express[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  << "Etag: W/"52-iNTPZCuEdL9vkQJYBxVCal8gDBM"[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  << "Via: 1.1 vegur[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  << "Server: cloudflare[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  << "CF-RAY: 50ed8c8a2d4dd597-BOM[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  << "[\r][\n]"
+2019-08-31 13:44:07 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 201 Created
+2019-08-31 13:44:07 DEBUG headers:262 - << HTTP/1.1 201 Created
+2019-08-31 13:44:07 DEBUG headers:265 - << Date: Sat, 31 Aug 2019 08:14:06 GMT
+2019-08-31 13:44:07 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2019-08-31 13:44:07 DEBUG headers:265 - << Content-Length: 82
+2019-08-31 13:44:07 DEBUG headers:265 - << Connection: keep-alive
+2019-08-31 13:44:07 DEBUG headers:265 - << Set-Cookie: __cfduid=de36110a0b9a87c2e8632e56eb73f31cd1567239246; expires=Sun, 30-Aug-20 08:14:06 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-08-31 13:44:07 DEBUG headers:265 - << X-Powered-By: Express
+2019-08-31 13:44:07 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2019-08-31 13:44:07 DEBUG headers:265 - << Etag: W/"52-iNTPZCuEdL9vkQJYBxVCal8gDBM"
+2019-08-31 13:44:07 DEBUG headers:265 - << Via: 1.1 vegur
+2019-08-31 13:44:07 DEBUG headers:265 - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-08-31 13:44:07 DEBUG headers:265 - << Server: cloudflare
+2019-08-31 13:44:07 DEBUG headers:265 - << CF-RAY: 50ed8c8a2d4dd597-BOM
+2019-08-31 13:44:07 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2019-08-31 13:44:07 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json; charset=utf-8
+2019-08-31 13:44:07 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-31 13:44:07 DEBUG wire:87 -  << "{"name":"vine22","job":"doctor","id":"418","createdAt":"2019-08-31T08:14:06.783Z"}"
+2019-08-31 13:44:07 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@151bf776
+2019-08-31 13:44:07 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2019-08-31 13:44:07 INFO  ValidateUser:52 - create User response is:   {"name":"vine22","job":"doctor","id":"418","createdAt":"2019-08-31T08:14:06.783Z"}
+2019-08-31 13:44:07 INFO  HelperTestMethods:20 - checking for response code
+2019-08-31 13:44:07 INFO  Utils:23 - setting base url
+2019-08-31 13:44:07 INFO  Utils:52 - calling getUserPostReponse
+2019-08-31 13:44:07 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://reqres.in:443
+2019-08-31 13:44:07 DEBUG DefaultClientConnectionOperator:177 - Connecting to reqres.in:443
+2019-08-31 13:44:07 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2019-08-31 13:44:07 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2019-08-31 13:44:07 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2019-08-31 13:44:07 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2019-08-31 13:44:07 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2019-08-31 13:44:07 DEBUG DefaultClientConnection:274 - Sending request: POST /api/users HTTP/1.1
+2019-08-31 13:44:07 DEBUG wire:73 -  >> "POST /api/users HTTP/1.1[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  >> "Content-Length: 33[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  >> "Host: reqres.in[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-31 13:44:07 DEBUG wire:73 -  >> "[\r][\n]"
+2019-08-31 13:44:07 DEBUG headers:278 - >> POST /api/users HTTP/1.1
+2019-08-31 13:44:07 DEBUG headers:281 - >> Accept: */*
+2019-08-31 13:44:07 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2019-08-31 13:44:07 DEBUG headers:281 - >> Content-Length: 33
+2019-08-31 13:44:07 DEBUG headers:281 - >> Host: reqres.in
+2019-08-31 13:44:07 DEBUG headers:281 - >> Connection: Keep-Alive
+2019-08-31 13:44:07 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+2019-08-31 13:44:07 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2019-08-31 13:44:07 DEBUG wire:87 -  >> "{"name":"vine33","job":"manager"}"
+2019-08-31 13:44:08 DEBUG wire:73 -  << "HTTP/1.1 201 Created[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  << "Date: Sat, 31 Aug 2019 08:14:07 GMT[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  << "Content-Length: 83[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  << "Set-Cookie: __cfduid=d16b69bace3eef360794ece0fce1964b31567239247; expires=Sun, 30-Aug-20 08:14:07 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  << "X-Powered-By: Express[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  << "Etag: W/"53-IlnLiCchXhluRIJ/+5iqLWN9tWw"[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  << "Via: 1.1 vegur[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  << "Server: cloudflare[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  << "CF-RAY: 50ed8c8f1a4ad5bf-BOM[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  << "[\r][\n]"
+2019-08-31 13:44:08 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 201 Created
+2019-08-31 13:44:08 DEBUG headers:262 - << HTTP/1.1 201 Created
+2019-08-31 13:44:08 DEBUG headers:265 - << Date: Sat, 31 Aug 2019 08:14:07 GMT
+2019-08-31 13:44:08 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2019-08-31 13:44:08 DEBUG headers:265 - << Content-Length: 83
+2019-08-31 13:44:08 DEBUG headers:265 - << Connection: keep-alive
+2019-08-31 13:44:08 DEBUG headers:265 - << Set-Cookie: __cfduid=d16b69bace3eef360794ece0fce1964b31567239247; expires=Sun, 30-Aug-20 08:14:07 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-08-31 13:44:08 DEBUG headers:265 - << X-Powered-By: Express
+2019-08-31 13:44:08 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2019-08-31 13:44:08 DEBUG headers:265 - << Etag: W/"53-IlnLiCchXhluRIJ/+5iqLWN9tWw"
+2019-08-31 13:44:08 DEBUG headers:265 - << Via: 1.1 vegur
+2019-08-31 13:44:08 DEBUG headers:265 - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-08-31 13:44:08 DEBUG headers:265 - << Server: cloudflare
+2019-08-31 13:44:08 DEBUG headers:265 - << CF-RAY: 50ed8c8f1a4ad5bf-BOM
+2019-08-31 13:44:08 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2019-08-31 13:44:08 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json; charset=utf-8
+2019-08-31 13:44:08 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-31 13:44:08 DEBUG wire:87 -  << "{"name":"vine33","job":"manager","id":"716","createdAt":"2019-08-31T08:14:07.584Z"}"
+2019-08-31 13:44:08 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2b6fcb9f
+2019-08-31 13:44:08 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2019-08-31 13:44:08 INFO  ValidateUser:52 - create User response is:   {"name":"vine33","job":"manager","id":"716","createdAt":"2019-08-31T08:14:07.584Z"}
+2019-08-31 13:44:08 INFO  HelperTestMethods:20 - checking for response code
+2019-08-31 13:44:08 INFO  Utils:23 - setting base url
+2019-08-31 13:44:08 INFO  Utils:52 - calling getUserPostReponse
+2019-08-31 13:44:08 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://reqres.in:443
+2019-08-31 13:44:08 DEBUG DefaultClientConnectionOperator:177 - Connecting to reqres.in:443
+2019-08-31 13:44:08 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2019-08-31 13:44:08 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2019-08-31 13:44:08 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2019-08-31 13:44:08 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2019-08-31 13:44:08 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2019-08-31 13:44:08 DEBUG DefaultClientConnection:274 - Sending request: POST /api/users HTTP/1.1
+2019-08-31 13:44:08 DEBUG wire:73 -  >> "POST /api/users HTTP/1.1[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  >> "Content-Length: 30[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  >> "Host: reqres.in[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-31 13:44:08 DEBUG wire:73 -  >> "[\r][\n]"
+2019-08-31 13:44:08 DEBUG headers:278 - >> POST /api/users HTTP/1.1
+2019-08-31 13:44:08 DEBUG headers:281 - >> Accept: */*
+2019-08-31 13:44:08 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2019-08-31 13:44:08 DEBUG headers:281 - >> Content-Length: 30
+2019-08-31 13:44:08 DEBUG headers:281 - >> Host: reqres.in
+2019-08-31 13:44:08 DEBUG headers:281 - >> Connection: Keep-Alive
+2019-08-31 13:44:08 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+2019-08-31 13:44:08 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2019-08-31 13:44:08 DEBUG wire:87 -  >> "{"name":"vine44","job":"lead"}"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "HTTP/1.1 201 Created[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Date: Sat, 31 Aug 2019 08:14:08 GMT[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Content-Length: 80[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Set-Cookie: __cfduid=d6987ca0fd0250252705f90af8bc3ea481567239248; expires=Sun, 30-Aug-20 08:14:08 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "X-Powered-By: Express[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Etag: W/"50-0cEyz0eR014mYCfVyJyBwqeCGP8"[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Via: 1.1 vegur[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Server: cloudflare[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "CF-RAY: 50ed8c940cdcd5d4-BOM[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "[\r][\n]"
+2019-08-31 13:44:09 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 201 Created
+2019-08-31 13:44:09 DEBUG headers:262 - << HTTP/1.1 201 Created
+2019-08-31 13:44:09 DEBUG headers:265 - << Date: Sat, 31 Aug 2019 08:14:08 GMT
+2019-08-31 13:44:09 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2019-08-31 13:44:09 DEBUG headers:265 - << Content-Length: 80
+2019-08-31 13:44:09 DEBUG headers:265 - << Connection: keep-alive
+2019-08-31 13:44:09 DEBUG headers:265 - << Set-Cookie: __cfduid=d6987ca0fd0250252705f90af8bc3ea481567239248; expires=Sun, 30-Aug-20 08:14:08 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-08-31 13:44:09 DEBUG headers:265 - << X-Powered-By: Express
+2019-08-31 13:44:09 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2019-08-31 13:44:09 DEBUG headers:265 - << Etag: W/"50-0cEyz0eR014mYCfVyJyBwqeCGP8"
+2019-08-31 13:44:09 DEBUG headers:265 - << Via: 1.1 vegur
+2019-08-31 13:44:09 DEBUG headers:265 - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-08-31 13:44:09 DEBUG headers:265 - << Server: cloudflare
+2019-08-31 13:44:09 DEBUG headers:265 - << CF-RAY: 50ed8c940cdcd5d4-BOM
+2019-08-31 13:44:09 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2019-08-31 13:44:09 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json; charset=utf-8
+2019-08-31 13:44:09 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-31 13:44:09 DEBUG wire:87 -  << "{"name":"vine44","job":"lead","id":"889","createdAt":"2019-08-31T08:14:08.400Z"}"
+2019-08-31 13:44:09 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1caa9eb6
+2019-08-31 13:44:09 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2019-08-31 13:44:09 INFO  ValidateUser:52 - create User response is:   {"name":"vine44","job":"lead","id":"889","createdAt":"2019-08-31T08:14:08.400Z"}
+2019-08-31 13:44:09 INFO  HelperTestMethods:20 - checking for response code
+2019-08-31 13:44:09 INFO  Utils:23 - setting base url
+2019-08-31 13:44:09 INFO  Utils:40 - setting content type
+2019-08-31 13:44:09 INFO  Utils:46 - calling get
+2019-08-31 13:44:09 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://reqres.in:443
+2019-08-31 13:44:09 DEBUG DefaultClientConnectionOperator:177 - Connecting to reqres.in:443
+2019-08-31 13:44:09 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2019-08-31 13:44:09 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2019-08-31 13:44:09 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2019-08-31 13:44:09 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2019-08-31 13:44:09 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2019-08-31 13:44:09 DEBUG DefaultClientConnection:274 - Sending request: GET /api/users/6 HTTP/1.1
+2019-08-31 13:44:09 DEBUG wire:73 -  >> "GET /api/users/6 HTTP/1.1[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  >> "Host: reqres.in[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  >> "[\r][\n]"
+2019-08-31 13:44:09 DEBUG headers:278 - >> GET /api/users/6 HTTP/1.1
+2019-08-31 13:44:09 DEBUG headers:281 - >> Accept: */*
+2019-08-31 13:44:09 DEBUG headers:281 - >> Host: reqres.in
+2019-08-31 13:44:09 DEBUG headers:281 - >> Connection: Keep-Alive
+2019-08-31 13:44:09 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+2019-08-31 13:44:09 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2019-08-31 13:44:09 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Date: Sat, 31 Aug 2019 08:14:09 GMT[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Set-Cookie: __cfduid=d2fed6da5561164eb134d2eac86457d721567239249; expires=Sun, 30-Aug-20 08:14:09 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "X-Powered-By: Express[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Etag: W/"a8-2etvg2pgu00w1ycpQpN4VMA5Yow"[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Via: 1.1 vegur[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "CF-Cache-Status: HIT[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Age: 3158[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Expires: Sat, 31 Aug 2019 12:14:09 GMT[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Cache-Control: public, max-age=14400[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Server: cloudflare[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "CF-RAY: 50ed8c9b5e3dd5f0-BOM[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "[\r][\n]"
+2019-08-31 13:44:09 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2019-08-31 13:44:09 DEBUG headers:262 - << HTTP/1.1 200 OK
+2019-08-31 13:44:09 DEBUG headers:265 - << Date: Sat, 31 Aug 2019 08:14:09 GMT
+2019-08-31 13:44:09 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2019-08-31 13:44:09 DEBUG headers:265 - << Transfer-Encoding: chunked
+2019-08-31 13:44:09 DEBUG headers:265 - << Connection: keep-alive
+2019-08-31 13:44:09 DEBUG headers:265 - << Set-Cookie: __cfduid=d2fed6da5561164eb134d2eac86457d721567239249; expires=Sun, 30-Aug-20 08:14:09 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-08-31 13:44:09 DEBUG headers:265 - << X-Powered-By: Express
+2019-08-31 13:44:09 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2019-08-31 13:44:09 DEBUG headers:265 - << Etag: W/"a8-2etvg2pgu00w1ycpQpN4VMA5Yow"
+2019-08-31 13:44:09 DEBUG headers:265 - << Via: 1.1 vegur
+2019-08-31 13:44:09 DEBUG headers:265 - << CF-Cache-Status: HIT
+2019-08-31 13:44:09 DEBUG headers:265 - << Age: 3158
+2019-08-31 13:44:09 DEBUG headers:265 - << Expires: Sat, 31 Aug 2019 12:14:09 GMT
+2019-08-31 13:44:09 DEBUG headers:265 - << Cache-Control: public, max-age=14400
+2019-08-31 13:44:09 DEBUG headers:265 - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-08-31 13:44:09 DEBUG headers:265 - << Vary: Accept-Encoding
+2019-08-31 13:44:09 DEBUG headers:265 - << Server: cloudflare
+2019-08-31 13:44:09 DEBUG headers:265 - << CF-RAY: 50ed8c9b5e3dd5f0-BOM
+2019-08-31 13:44:09 DEBUG headers:265 - << Content-Encoding: gzip
+2019-08-31 13:44:09 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2019-08-31 13:44:09 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json; charset=utf-8
+2019-08-31 13:44:09 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:50977<->104.27.135.11:443 closed
+2019-08-31 13:44:09 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:50978<->104.27.135.11:443 closed
+2019-08-31 13:44:09 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:50979<->104.27.135.11:443 closed
+2019-08-31 13:44:09 DEBUG wire:73 -  << "95[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]E[0x8b]A[\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "[0xc2]0[0x14][0x5][0xef][0xf2][0xd6]!A[0x5][0x91][0xac]<[0x83][0xb8][0x97][0xd7]4m#MR[0x93][0xaf]EK[0xef].[0xea][0xc2][0xcd],[0x86][0x99][0x5]-[0x85][0xb0][0xb]B[0xb][0xbb]W[0xf0][0x91]a[0x84][0x85][0x14]:[0xff][0xd4][0x85]1[0xd7]c[0xf1][0xb7][0xe2][0xab][0xe][0x9][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "](U.[0x89][0xd1][0xc3][0xe2][0xfc][0xad][0xa0]0[0xf2]/O[0x9f][0x7][\n]"
+2019-08-31 13:44:09 DEBUG wire:87 -  << "|PX`1[0x88]L[0xd5][0x1a]Sw[0x9a][0x91][0xaf][0x9c]8W[0xed]r4[0xf7][0xd0][0xd1][0xf9]j~[0x94]9[0x88][0xf8]b[0x9a][0xd0]G&7d[0xb3][0xd9][0x1e][0xf4]u[0xea][0xb1][0xae]oy[0xcb][0xd8]e[0xa8][0x0][0x0][0x0]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "0[\r][\n]"
+2019-08-31 13:44:09 DEBUG wire:73 -  << "[\r][\n]"
+2019-08-31 13:44:09 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-31 13:44:09 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6a6f6c7e
+2019-08-31 13:44:09 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2019-08-31 13:44:09 INFO  UserDetails:33 - user details are:   {"data":{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}}
+2019-08-31 13:44:09 INFO  HelperTestMethods:14 - checking for response code
+2019-08-31 13:44:09 INFO  UserDetails:47 - User details are:  {"data":{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}}
+2019-08-31 13:44:09 INFO  UserDetails:49 - data is - {last_name=Ramos, id=6, avatar=https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg, first_name=Tracey, email=tracey.ramos@reqres.in}
+2019-08-31 13:44:09 INFO  UserDetails:50 - id is - 6
+2019-08-31 13:44:09 INFO  UserDetails:51 - email is - tracey.ramos@reqres.in
+2019-08-31 13:44:09 INFO  UserDetails:52 - firstname is - Tracey
+2019-08-31 13:44:09 INFO  UserDetails:53 - lastname is - Ramos
+2019-08-31 13:44:09 INFO  UserDetails:54 - avatar is - https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg
+2019-08-31 13:44:09 INFO  Utils:23 - setting base url
+2019-08-31 13:44:09 INFO  Utils:52 - calling getUserPostReponse
+2019-08-31 13:44:09 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://reqres.in:443
+2019-08-31 13:44:09 DEBUG DefaultClientConnectionOperator:177 - Connecting to reqres.in:443
+2019-08-31 13:44:10 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2019-08-31 13:44:10 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2019-08-31 13:44:10 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2019-08-31 13:44:10 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2019-08-31 13:44:10 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2019-08-31 13:44:10 DEBUG DefaultClientConnection:274 - Sending request: POST /api/users HTTP/1.1
+2019-08-31 13:44:10 DEBUG wire:73 -  >> "POST /api/users HTTP/1.1[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  >> "Content-Length: 32[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  >> "Host: reqres.in[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  >> "[\r][\n]"
+2019-08-31 13:44:10 DEBUG headers:278 - >> POST /api/users HTTP/1.1
+2019-08-31 13:44:10 DEBUG headers:281 - >> Accept: */*
+2019-08-31 13:44:10 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2019-08-31 13:44:10 DEBUG headers:281 - >> Content-Length: 32
+2019-08-31 13:44:10 DEBUG headers:281 - >> Host: reqres.in
+2019-08-31 13:44:10 DEBUG headers:281 - >> Connection: Keep-Alive
+2019-08-31 13:44:10 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+2019-08-31 13:44:10 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2019-08-31 13:44:10 DEBUG wire:87 -  >> "{"name":"vine","job":"engineer"}"
+2019-08-31 13:44:10 DEBUG wire:73 -  << "HTTP/1.1 201 Created[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  << "Date: Sat, 31 Aug 2019 08:14:10 GMT[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  << "Content-Length: 82[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  << "Set-Cookie: __cfduid=dfe0061f51d76e678c22a1705abd488d31567239249; expires=Sun, 30-Aug-20 08:14:09 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  << "X-Powered-By: Express[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  << "Etag: W/"52-ferC83nHsnY6H7omEiOEXscWaoU"[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  << "Via: 1.1 vegur[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  << "Server: cloudflare[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  << "CF-RAY: 50ed8c9d3c55d5a3-BOM[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  << "[\r][\n]"
+2019-08-31 13:44:10 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 201 Created
+2019-08-31 13:44:10 DEBUG headers:262 - << HTTP/1.1 201 Created
+2019-08-31 13:44:10 DEBUG headers:265 - << Date: Sat, 31 Aug 2019 08:14:10 GMT
+2019-08-31 13:44:10 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2019-08-31 13:44:10 DEBUG headers:265 - << Content-Length: 82
+2019-08-31 13:44:10 DEBUG headers:265 - << Connection: keep-alive
+2019-08-31 13:44:10 DEBUG headers:265 - << Set-Cookie: __cfduid=dfe0061f51d76e678c22a1705abd488d31567239249; expires=Sun, 30-Aug-20 08:14:09 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-08-31 13:44:10 DEBUG headers:265 - << X-Powered-By: Express
+2019-08-31 13:44:10 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2019-08-31 13:44:10 DEBUG headers:265 - << Etag: W/"52-ferC83nHsnY6H7omEiOEXscWaoU"
+2019-08-31 13:44:10 DEBUG headers:265 - << Via: 1.1 vegur
+2019-08-31 13:44:10 DEBUG headers:265 - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-08-31 13:44:10 DEBUG headers:265 - << Server: cloudflare
+2019-08-31 13:44:10 DEBUG headers:265 - << CF-RAY: 50ed8c9d3c55d5a3-BOM
+2019-08-31 13:44:10 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2019-08-31 13:44:10 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json; charset=utf-8
+2019-08-31 13:44:10 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-31 13:44:10 DEBUG wire:87 -  << "{"name":"vine","job":"engineer","id":"732","createdAt":"2019-08-31T08:14:09.877Z"}"
+2019-08-31 13:44:10 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@433c6abb
+2019-08-31 13:44:10 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2019-08-31 13:44:10 INFO  ValidateUser:52 - create User response is:   {"name":"vine","job":"engineer","id":"732","createdAt":"2019-08-31T08:14:09.877Z"}
+2019-08-31 13:44:10 INFO  HelperTestMethods:20 - checking for response code
+2019-08-31 13:44:10 INFO  Utils:23 - setting base url
+2019-08-31 13:44:10 INFO  Utils:40 - setting content type
+2019-08-31 13:44:10 INFO  ValidateUser:79 - Created user id is-- 732
+2019-08-31 13:44:10 INFO  Utils:46 - calling get
+2019-08-31 13:44:10 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://reqres.in:443
+2019-08-31 13:44:10 DEBUG DefaultClientConnectionOperator:177 - Connecting to reqres.in:443
+2019-08-31 13:44:10 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2019-08-31 13:44:10 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2019-08-31 13:44:10 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2019-08-31 13:44:10 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2019-08-31 13:44:10 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2019-08-31 13:44:10 DEBUG DefaultClientConnection:274 - Sending request: GET /api/users/732 HTTP/1.1
+2019-08-31 13:44:10 DEBUG wire:73 -  >> "GET /api/users/732 HTTP/1.1[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  >> "Host: reqres.in[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-31 13:44:10 DEBUG wire:73 -  >> "[\r][\n]"
+2019-08-31 13:44:10 DEBUG headers:278 - >> GET /api/users/732 HTTP/1.1
+2019-08-31 13:44:10 DEBUG headers:281 - >> Accept: */*
+2019-08-31 13:44:10 DEBUG headers:281 - >> Host: reqres.in
+2019-08-31 13:44:10 DEBUG headers:281 - >> Connection: Keep-Alive
+2019-08-31 13:44:10 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+2019-08-31 13:44:10 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2019-08-31 13:44:11 DEBUG wire:73 -  << "HTTP/1.1 404 Not Found[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  << "Date: Sat, 31 Aug 2019 08:14:10 GMT[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  << "Content-Length: 2[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  << "Set-Cookie: __cfduid=d31cde7de30f219d48fc7549c91833fc31567239250; expires=Sun, 30-Aug-20 08:14:10 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  << "X-Powered-By: Express[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  << "Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  << "Via: 1.1 vegur[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  << "CF-Cache-Status: MISS[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  << "Expires: Sat, 31 Aug 2019 12:14:10 GMT[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  << "Cache-Control: public, max-age=14400[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  << "Server: cloudflare[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  << "CF-RAY: 50ed8ca1c8fcd5e4-BOM[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  << "[\r][\n]"
+2019-08-31 13:44:11 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 404 Not Found
+2019-08-31 13:44:11 DEBUG headers:262 - << HTTP/1.1 404 Not Found
+2019-08-31 13:44:11 DEBUG headers:265 - << Date: Sat, 31 Aug 2019 08:14:10 GMT
+2019-08-31 13:44:11 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2019-08-31 13:44:11 DEBUG headers:265 - << Content-Length: 2
+2019-08-31 13:44:11 DEBUG headers:265 - << Connection: keep-alive
+2019-08-31 13:44:11 DEBUG headers:265 - << Set-Cookie: __cfduid=d31cde7de30f219d48fc7549c91833fc31567239250; expires=Sun, 30-Aug-20 08:14:10 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-08-31 13:44:11 DEBUG headers:265 - << X-Powered-By: Express
+2019-08-31 13:44:11 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2019-08-31 13:44:11 DEBUG headers:265 - << Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+2019-08-31 13:44:11 DEBUG headers:265 - << Via: 1.1 vegur
+2019-08-31 13:44:11 DEBUG headers:265 - << CF-Cache-Status: MISS
+2019-08-31 13:44:11 DEBUG headers:265 - << Expires: Sat, 31 Aug 2019 12:14:10 GMT
+2019-08-31 13:44:11 DEBUG headers:265 - << Cache-Control: public, max-age=14400
+2019-08-31 13:44:11 DEBUG headers:265 - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-08-31 13:44:11 DEBUG headers:265 - << Vary: Accept-Encoding
+2019-08-31 13:44:11 DEBUG headers:265 - << Server: cloudflare
+2019-08-31 13:44:11 DEBUG headers:265 - << CF-RAY: 50ed8ca1c8fcd5e4-BOM
+2019-08-31 13:44:11 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2019-08-31 13:44:11 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json; charset=utf-8
+2019-08-31 13:44:11 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-31 13:44:11 DEBUG wire:87 -  << "{}"
+2019-08-31 13:44:11 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1e1b061
+2019-08-31 13:44:11 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2019-08-31 13:44:11 INFO  ValidateUser:82 - Response of get api is--- {}
+2019-08-31 13:44:11 INFO  HelperTestMethods:14 - checking for response code
+2019-08-31 13:44:11 INFO  Utils:23 - setting base url
+2019-08-31 13:44:11 INFO  Utils:40 - setting content type
+2019-08-31 13:44:11 INFO  Utils:59 - calling getUserPutReponse
+2019-08-31 13:44:11 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://reqres.in:443
+2019-08-31 13:44:11 DEBUG DefaultClientConnectionOperator:177 - Connecting to reqres.in:443
+2019-08-31 13:44:11 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2019-08-31 13:44:11 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2019-08-31 13:44:11 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2019-08-31 13:44:11 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2019-08-31 13:44:11 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2019-08-31 13:44:11 DEBUG DefaultClientConnection:274 - Sending request: PUT /api/users/732 HTTP/1.1
+2019-08-31 13:44:11 DEBUG wire:73 -  >> "PUT /api/users/732 HTTP/1.1[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  >> "Content-Length: 34[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  >> "Host: reqres.in[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-31 13:44:11 DEBUG wire:73 -  >> "[\r][\n]"
+2019-08-31 13:44:11 DEBUG headers:278 - >> PUT /api/users/732 HTTP/1.1
+2019-08-31 13:44:11 DEBUG headers:281 - >> Accept: */*
+2019-08-31 13:44:11 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2019-08-31 13:44:11 DEBUG headers:281 - >> Content-Length: 34
+2019-08-31 13:44:11 DEBUG headers:281 - >> Host: reqres.in
+2019-08-31 13:44:11 DEBUG headers:281 - >> Connection: Keep-Alive
+2019-08-31 13:44:11 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+2019-08-31 13:44:11 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2019-08-31 13:44:11 DEBUG wire:87 -  >> "{"name":"vineetag","job":"doctor"}"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Date: Sat, 31 Aug 2019 08:14:11 GMT[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Set-Cookie: __cfduid=da6b0df87ba35fea76a948b7895d157b81567239250; expires=Sun, 30-Aug-20 08:14:10 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "X-Powered-By: Express[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Etag: W/"49-iq5uIjpNTrwYT5fzXUsUI6RzEtY"[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Via: 1.1 vegur[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Server: cloudflare[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "CF-RAY: 50ed8ca63890d5f4-BOM[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "[\r][\n]"
+2019-08-31 13:44:12 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2019-08-31 13:44:12 DEBUG headers:262 - << HTTP/1.1 200 OK
+2019-08-31 13:44:12 DEBUG headers:265 - << Date: Sat, 31 Aug 2019 08:14:11 GMT
+2019-08-31 13:44:12 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2019-08-31 13:44:12 DEBUG headers:265 - << Transfer-Encoding: chunked
+2019-08-31 13:44:12 DEBUG headers:265 - << Connection: keep-alive
+2019-08-31 13:44:12 DEBUG headers:265 - << Set-Cookie: __cfduid=da6b0df87ba35fea76a948b7895d157b81567239250; expires=Sun, 30-Aug-20 08:14:10 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-08-31 13:44:12 DEBUG headers:265 - << X-Powered-By: Express
+2019-08-31 13:44:12 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2019-08-31 13:44:12 DEBUG headers:265 - << Etag: W/"49-iq5uIjpNTrwYT5fzXUsUI6RzEtY"
+2019-08-31 13:44:12 DEBUG headers:265 - << Via: 1.1 vegur
+2019-08-31 13:44:12 DEBUG headers:265 - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-08-31 13:44:12 DEBUG headers:265 - << Vary: Accept-Encoding
+2019-08-31 13:44:12 DEBUG headers:265 - << Server: cloudflare
+2019-08-31 13:44:12 DEBUG headers:265 - << CF-RAY: 50ed8ca63890d5f4-BOM
+2019-08-31 13:44:12 DEBUG headers:265 - << Content-Encoding: gzip
+2019-08-31 13:44:12 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2019-08-31 13:44:12 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json; charset=utf-8
+2019-08-31 13:44:12 DEBUG wire:73 -  << "63[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:87 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xaa]V[0xca]K[0xcc]MU[0xb2]R*[0xcb][0xcc]KM-ILW[0xd2]Q[0xca][0xca]OR[0xb2]RJ[0xc9]O.[0xc9]/R[0xd2]Q*-HI,IMq,Q[0xb2]R220[0xb4][0xd4]5[0xb0][0xd0]56[0xc]1[0xb0][0xb0]24[0xb1]24[0xd4]327[0x8b]R[0xaa][0x5][0x0][0x0][0x0][0xff][0xff][0x3][0x0][0x9c][0xb9]H%I[0x0][0x0][0x0]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "0[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "[\r][\n]"
+2019-08-31 13:44:12 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-31 13:44:12 INFO  HelperTestMethods:14 - checking for response code
+2019-08-31 13:44:12 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4db60246
+2019-08-31 13:44:12 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2019-08-31 13:44:12 INFO  ValidateUser:130 - updated name is--vineetag
+2019-08-31 13:44:12 INFO  ValidateUser:131 - updated job is--doctor
+2019-08-31 13:44:12 INFO  Utils:23 - setting base url
+2019-08-31 13:44:12 INFO  Utils:65 - calling delete
+2019-08-31 13:44:12 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://reqres.in:443
+2019-08-31 13:44:12 DEBUG DefaultClientConnectionOperator:177 - Connecting to reqres.in:443
+2019-08-31 13:44:12 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2019-08-31 13:44:12 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2019-08-31 13:44:12 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2019-08-31 13:44:12 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2019-08-31 13:44:12 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2019-08-31 13:44:12 DEBUG DefaultClientConnection:274 - Sending request: DELETE /api/users/732/732 HTTP/1.1
+2019-08-31 13:44:12 DEBUG wire:73 -  >> "DELETE /api/users/732/732 HTTP/1.1[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  >> "Host: reqres.in[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  >> "[\r][\n]"
+2019-08-31 13:44:12 DEBUG headers:278 - >> DELETE /api/users/732/732 HTTP/1.1
+2019-08-31 13:44:12 DEBUG headers:281 - >> Accept: */*
+2019-08-31 13:44:12 DEBUG headers:281 - >> Host: reqres.in
+2019-08-31 13:44:12 DEBUG headers:281 - >> Connection: Keep-Alive
+2019-08-31 13:44:12 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+2019-08-31 13:44:12 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2019-08-31 13:44:12 DEBUG wire:73 -  << "HTTP/1.1 204 No Content[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Date: Sat, 31 Aug 2019 08:14:11 GMT[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Content-Length: 0[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Set-Cookie: __cfduid=d128f31185c11c2512fcccc4c6f58b89c1567239251; expires=Sun, 30-Aug-20 08:14:11 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "X-Powered-By: Express[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Via: 1.1 vegur[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "Server: cloudflare[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "CF-RAY: 50ed8cab4ea2d5cc-BOM[\r][\n]"
+2019-08-31 13:44:12 DEBUG wire:73 -  << "[\r][\n]"
+2019-08-31 13:44:12 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 204 No Content
+2019-08-31 13:44:12 DEBUG headers:262 - << HTTP/1.1 204 No Content
+2019-08-31 13:44:12 DEBUG headers:265 - << Date: Sat, 31 Aug 2019 08:14:11 GMT
+2019-08-31 13:44:12 DEBUG headers:265 - << Content-Length: 0
+2019-08-31 13:44:12 DEBUG headers:265 - << Connection: keep-alive
+2019-08-31 13:44:12 DEBUG headers:265 - << Set-Cookie: __cfduid=d128f31185c11c2512fcccc4c6f58b89c1567239251; expires=Sun, 30-Aug-20 08:14:11 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-08-31 13:44:12 DEBUG headers:265 - << X-Powered-By: Express
+2019-08-31 13:44:12 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2019-08-31 13:44:12 DEBUG headers:265 - << Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+2019-08-31 13:44:12 DEBUG headers:265 - << Via: 1.1 vegur
+2019-08-31 13:44:12 DEBUG headers:265 - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-08-31 13:44:12 DEBUG headers:265 - << Server: cloudflare
+2019-08-31 13:44:12 DEBUG headers:265 - << CF-RAY: 50ed8cab4ea2d5cc-BOM
+2019-08-31 13:44:12 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2019-08-31 13:44:12 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@58c1da09
+2019-08-31 13:44:12 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2019-08-31 13:44:12 INFO  HelperTestMethods:32 - checking for response code
+2019-08-31 13:57:28 ERROR ValidateUser:100 - FAILED to fetch a user details
