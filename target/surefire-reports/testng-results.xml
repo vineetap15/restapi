@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="apiframework" duration-ms="9183" started-at="2019-08-31T08:27:21Z" finished-at="2019-08-31T08:27:30Z">
+  <suite started-at="2019-09-01T07:08:54Z" name="apiframework" finished-at="2019-09-01T07:09:08Z" duration-ms="13435">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner@146ba0ac]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner@a7ad6e5]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="api testing" duration-ms="9183" started-at="2019-08-31T08:27:21Z" finished-at="2019-08-31T08:27:30Z">
+    <test started-at="2019-09-01T07:08:54Z" name="api testing" finished-at="2019-09-01T07:09:08Z" duration-ms="13435">
       <class name="Runner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner@146ba0ac]" name="setUpClass" is-config="true" duration-ms="371" started-at="2019-08-31T08:27:21Z" finished-at="2019-08-31T08:27:21Z">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner@a7ad6e5]" started-at="2019-09-01T07:08:54Z" name="setUpClass" finished-at="2019-09-01T07:08:55Z" duration-ms="484" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner@146ba0ac]" name="feature" duration-ms="5771" started-at="2019-08-31T08:27:21Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-08-31T08:27:27Z">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner@a7ad6e5]" started-at="2019-09-01T07:08:55Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-01T07:09:03Z" duration-ms="7966" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner@146ba0ac]" name="feature" duration-ms="275" started-at="2019-08-31T08:27:27Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-08-31T08:27:27Z">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner@a7ad6e5]" started-at="2019-09-01T07:09:03Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-01T07:09:03Z" duration-ms="249" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner@146ba0ac]" name="feature" duration-ms="2638" started-at="2019-08-31T08:27:27Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-08-31T08:27:30Z">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner@a7ad6e5]" started-at="2019-09-01T07:09:03Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-01T07:09:08Z" duration-ms="4466" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -44,10 +44,59 @@
               </value>
             </param>
           </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[java.lang.AssertionError: Status check FAILED expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: Status check FAILED expected [200] but found [404]
+at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.lang.AssertionError: Status check FAILED expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at reqres.helpers.HelperTestMethods.checkStatusIs200(HelperTestMethods.java:15)
+at reqres.e2e.steps.user.ValidateUser.the_user_should_be_validated(ValidateUser.java:90)
+at ✽.Then the user should be validated(user/ValidateUser.feature:20)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner@146ba0ac]" name="tearDownClass" is-config="true" duration-ms="20" started-at="2019-08-31T08:27:30Z" finished-at="2019-08-31T08:27:30Z">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner@a7ad6e5]" started-at="2019-09-01T07:09:08Z" name="tearDownClass" finished-at="2019-09-01T07:09:08Z" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

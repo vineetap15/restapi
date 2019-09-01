@@ -1,7 +1,7 @@
 .vscode
-target
-.settings
+target/
+.settings/
 .classpath
 .factorypath
-.settings
+*.log
 .project
