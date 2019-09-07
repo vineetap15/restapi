@@ -22,7 +22,7 @@ public class Utils {
     public static String path;
     static Logger log = Logger.getLogger(Utils.class);
     static String url;
-    private static String auth= "Bearer b0e5ed8c1300ce5a85b6680c3b0a7f9b9a418642";
+    private static String auth= "Bearer bd247854f662428b3e3eaca8b5a8013b051b26be";
 
     public static void setBaseURI(){
         log.info("setting base url");

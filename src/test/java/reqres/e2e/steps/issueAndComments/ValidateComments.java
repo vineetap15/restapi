@@ -26,6 +26,7 @@ import reqres.helpers.World;
 import reqres.helpers.issueandcomments.CreateComment;
 import reqres.helpers.issueandcomments.CreateIssue;
 import reqres.helpers.issueandcomments.GetCommentsResponse;
+import reqres.helpers.issueandcomments.GetCommentsResponseArray;
 import reqres.helpers.issueandcomments.GetCommentsResponseUser;
 import reqres.helpers.user.CreateUser;
 import reqres.helpers.user.UpdateUser;
@@ -198,7 +199,7 @@ public class ValidateComments {
     @When("^the user hits the GET api to read all the comments to an issue$")
     public void the_user_hits_the_GET_api_to_read_all_the_comments_to_an_issue() throws Throwable {
         String basepath ="vineetap15/restapi/issues/"+ValidateComments.issueid+"/comments";
-        //String basepath ="https://api.github.com/repos/vineetap15/restapi/issues/14/comments";
+        //String basepath ="vineetap15/restapi/issues/20/comments";
         log.info("user hit the get all comments api : " +Utils.getBaseURI()+Utils.getBasePath());
          Utils.setBasePath(basepath);
         response = Utils.getUserReponseWithAuth();
@@ -207,53 +208,39 @@ public class ValidateComments {
     
     @Then("^user can view all the comments$")
     public void user_can_view_all_the_comments() throws Throwable {
-        log.info("Comments details for an issue:  " +world.getResponseBody());
-        ///log.info(world.getResponseBody());
+      
         htm.checkStatusIs200(response);
 
+        List<String> body = response.jsonPath().get("body");
+        List<String> userlist = response.jsonPath().get("user.login");
+        List<String> id= response.jsonPath().get("id");
+        List<String> author_association= response.jsonPath().get("author_association");
         
+        log.info("below details are parsed: ");
+
+        log.info("Expected body is ---- " +body);
+        log.info("-------------------------");
+        log.info("-------------------------");
+        log.info("Actual body is ---- " +ValidateComments.newComment);
+        log.info("-------------------------");
+        log.info("-------------------------");
+        log.info("userlist is ---- " +userlist);
+        log.info("-------------------------");
+        log.info("-------------------------");
+        log.info("id is ---- " +id);
+        log.info("-------------------------");
+        log.info("-------------------------");
+        log.info("author_association is ---- " +author_association);
+
         
-        //List<String> commentslist = new ArrayList<String>();
-        //List<String> commentslist  = response.;
+        Assert.assertTrue(id.contains(ValidateComments.commentid));
+        Assert.assertTrue(body.contains(ValidateComments.newComment));
+        Assert.assertTrue(author_association.contains("OWNER"));
+        Assert.assertTrue(userlist.contains("vineetap15"));
 
-      //  int size = commentslist.size();
-        // log.info("SIZE of response is:  " +size);
+        // Assert.assertTrue(world.getResponseBody().contains("created_at"));
+        // Assert.assertTrue(world.getResponseBody().contains("updated_at"));
 
-        // for(int i=0;i<size;i++){
-        //     //String commentdetail;
-        //     // String username,created_at,updated_at,commentsBody,author_association;
-        //     // Map<String,String> commentdetail = new HashMap<String,String>();
-
-        //     // GetCommentsResponseUser u = response.as(GetCommentsResponseUser.class);
-        //     // GetCommentsResponse g = response.as(GetCommentsResponse.class);
-        //     // mp.convertValue(world.getResponseBody(),GetCommentsResponse.class);
-
-        //     Map<Integer,String> mp = new HashMap<Integer,String>();
-        //     mp.put(i,commentslist.get(i));
-
-
-        //     commentid = Integer.parseInt(from(mp.get(i)).getString("id"));
-        //     String created_at = from(mp.get(i)).getString("created_at");
-        //     String updated_at = from(mp.get(i)).getString("updated_at");
-        //     String author_association = from(mp.get(i)).getString("author_association");
-        //     String body = from(mp.get(i)).getString("body");
-
-        //     log.info("comment id-------" +commentid);
-        //     log.info("created_at-------" +created_at);
-        //     log.info("updated_at-------" +updated_at);
-        //     log.info("author_association-------" +author_association);
-        //     log.info("body-------" +body);
-            
-
-        //     Map<String,String> userdetails = response.jsonPath().getMap("user[0]");
-
-        //     Assert.assertTrue(world.getResponseBody().contains("id"));
-        //     Assert.assertTrue(world.getResponseBody().contains("user.login"));
-        //     Assert.assertTrue(world.getResponseBody().contains("created_at"));
-        //     Assert.assertTrue(world.getResponseBody().contains("updated_at"));
-        //     Assert.assertTrue(world.getResponseBody().contains("author_association"));
-        //     Assert.assertTrue(world.getResponseBody().contains("body"));
-            
         }
 
    //Deleting comments---------------------------------------------

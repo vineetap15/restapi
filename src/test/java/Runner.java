@@ -6,7 +6,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
     monochrome = true,
     format={"pretty","json:target/cucumber-report/cucumber.json"},
     glue = "reqres",
-    //tags = {"@deletecomments"}
+    //tags = {"@getcomments"}
     tags = {"@createissue,@entercomments,@editcomments,@getcomments,@deletecomments"}
 )
 
