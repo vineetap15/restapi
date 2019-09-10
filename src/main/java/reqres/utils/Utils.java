@@ -22,11 +22,12 @@ public class Utils {
     public static String path;
     static Logger log = Logger.getLogger(Utils.class);
     static String url;
-    private static String auth= "Bearer bd247854f662428b3e3eaca8b5a8013b051b26be";
+    private static String auth= "Bearer ef5f17031142449f50937be1f0701998154047e3";
 
     public static void setBaseURI(){
         log.info("setting base url");
-        RestAssured.baseURI = "https://api.github.com/repos";
+        //RestAssured.baseURI = "https://api.github.com/repos";
+        RestAssured.baseURI = "https://api.github.com";
         //RestAssured.baseURI = "https://reqres.in/api/users";
     }
 
