@@ -14,6 +14,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import reqres.helpers.issueandcomments.CreateComment;
 import reqres.helpers.issueandcomments.CreateIssue;
+import reqres.helpers.repo.CreateRepo;
 import reqres.helpers.user.CreateUser;
 import reqres.helpers.user.UpdateUser;
 
@@ -22,7 +23,7 @@ public class Utils {
     public static String path;
     static Logger log = Logger.getLogger(Utils.class);
     static String url;
-    private static String auth= "Bearer ef5f17031142449f50937be1f0701998154047e3";
+    private static String auth= "Bearer e8630d87686ecb17667994699c67abbad67ebede";
 
     public static void setBaseURI(){
         log.info("setting base url");
@@ -111,6 +112,17 @@ public class Utils {
         log.info("calling delete");
 
         return given().header("Authorization",auth).delete();
+    }
+
+    public static Response getDeleteReponse(){
+        log.info("calling delete");
+
+        return given().header("Authorization",auth).delete();
+    }
+
+    public static Response getRepoPostResponse(ContentType type,CreateRepo obj){
+        log.info("calling create repo api");
+        return given().header("Authorization",auth).contentType(type).body(obj).post();
     }
 
 
